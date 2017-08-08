@@ -1,0 +1,24 @@
+/* Empty. Add your own CSS if you like */
+.menu-wrapper {
+    background-color: #3A4855 !important;
+    color: #fff !important;
+}
+
+.menu-wrapper h1{
+    color: #fff !important;
+}
+
+.menu-item {
+    background-color: #3A4855;
+    border-color: #354350;
+    color: #ffffff;
+}
+
+.menu-item a{
+    background-color: #3A4855 !important;
+    color: #ffffff;
+}
+
+.content-wrapper {
+    background-color: #EDECF4;
+}

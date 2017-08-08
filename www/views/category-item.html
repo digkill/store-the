@@ -1,0 +1,5 @@
+<div ng-repeat='category in categories track by $index'>
+    <ion-item menu-close href="#/app/cart/{{category.cid}}" class="menu-item">
+        {{category.title}} {{category.id}} {{category.categoryId}}
+    </ion-item>
+</div>

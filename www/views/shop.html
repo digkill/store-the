@@ -1,0 +1,20 @@
+ <ion-nav-bar class="bar-stable">
+            <ion-nav-back-button>
+            </ion-nav-back-button>
+
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+                </button>
+
+                <button class='button icon ion-arrow-left-a' ng-click='goToGallery()'></button>    
+                <h1 class="title">shop-the.com</h1>
+                <button class='button icon ion-bag' ng-click='goToCart()'></button>
+            </ion-nav-buttons>
+
+
+
+        </ion-nav-bar>
+<ion-content>
+    <ion-gallery products='products'></ion-gallery>
+</ion-content>
+<ion-cart-footer path='checkoutPath'></ion-cart-footer> 
